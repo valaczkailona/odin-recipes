@@ -1,28 +1,63 @@
 body {
     background-color: #FFF2CC;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
 }
 h1 {
     font-family: Brush Script MT;
     font-size: 42px;
     text-align: center;
 }
+
+
 img {
     width: 30%;
     height: auto;
+}
+img#schnitzel {
+    width: 400px;
+
+}
+img#cake {
+    width: 600px;
+}
+
+img#lasagna {
+    width: 200px;
 }
 h2 {
     font-family: Brush Script MT;
     font-weight: 100;
     font-size: 36px;
 }
+h2.first {
+    background-color:  #CCFFF2;
+}
+h2.second {
+    background-color:  #CCF2FF;
+}
+h2.third {
+    background-color:  #CCD9FF;
+}
 p,
 li {
     font-family: Georgia, sserif;
 
 }
-ul {
+ul li {
+    font-size: 16px;
+}
+ol li {
+   font-size: 20px;
+}
+ul.ingredient {
+    list-style-type: square;
 
 }
-ol{
+ol.step {
+    list-style-type: decimal; 
     
+}
+ul.links {
+    list-style-type: none;
 }
